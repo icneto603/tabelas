@@ -1,0 +1,48 @@
+html{
+  font-weight: 800;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table {
+    border-collapse: collapse; /* Remover bordas entre células */
+    width: 80%; /* Ajustar largura da tabela à tela */
+    margin: 0 auto;
+    background-color: rgb(0, 64, 64);
+    border: 2px solid;
+  }
+  
+  th, td {
+    padding: 8px; /* Espaçamento interno nas células */
+    text-align: center; /* Alinhar texto à esquerda */
+    color:#ffffff;
+    border: 2px solid;
+
+
+  }
+  
+  th {
+    background-color: #2e2d2d; /* Cor de fundo do cabeçalho */
+    font-weight: bold; /* Texto em negrito */
+  }
+
+  tr:nth-child(even) {
+    background-color: rgb(150, 0, 108);
+  }
+
+  tr:nth-child(odd){
+    background-color: rgb(236, 18, 87);
+  }
+
+  caption{
+    background-color: bisque;
+    padding: 10px;
+    font-size: larger;
+    color: darkmagenta;
+    margin-bottom: 20px;
+  }
+
+  .altura{
+    height: 200px;
+  }
+
+

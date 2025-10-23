@@ -4,8 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estudos sobre tabelas</title>
+
+    <style>
+
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        table,th, td{
+            border-color: blueviolet;
+            border-width: 1px;
+            border-style: solid;
+            border-collapse: collapse;
+            padding: 15px;
+            
+
+        }
+
+        th{
+            background: #a9a9a9;
+        }
+
+        .align{
+            text-align: center;
+        }
+    </style>
+
 </head>
 <body>
+    <table>
+        
+        
+        <thead>
+            <th>Título01</th>
+            <th>Título02</th>
+            <th>Título03</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Informações01</td>
+                <td>Informações02</td>
+                <td>Informações03</td>
+            </tr>
+            <tr>
+                <td>Informações04</td>
+                <td>Informações05</td>
+                <td>Informações06</td>
+            </tr>
+            <tr>
+                <td>Informações07</td>
+                <td>Informações08</td>
+                <td>Informações09</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="3" class="align">Dados extraídos em 23/102025.</td>
+            </tr>
+        </tfoot>
     
+    </table>
 </body>
 </html>

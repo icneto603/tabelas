@@ -1,0 +1,24 @@
+{
+  "name": "tabelas",
+  "version": "1.0.0",
+  "description": "estudos sobre tabelas com HTML e CSS",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icneto603/tabelas.git"
+  },
+  "keywords": [
+    "tabela",
+    "css",
+    "html"
+  ],
+  "author": "Ivo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/icneto603/tabelas/issues"
+  },
+  "homepage": "https://github.com/icneto603/tabelas#readme"
+}

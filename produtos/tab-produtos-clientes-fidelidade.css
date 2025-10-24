@@ -6,7 +6,7 @@ html{
 table {
     border-collapse: collapse; 
     width: 80%; 
-    margin: 0 auto;
+    margin: 25px auto;
     background-color: rgb(0, 64, 64);
     border: 2px solid;
   }

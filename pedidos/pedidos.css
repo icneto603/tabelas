@@ -1,39 +1,35 @@
-/* Estilo geral para as tabelas */
+
 table {
-    /* Juntar as bordas / remover espaço entre as bordas */
+  
     border-collapse: collapse;
-    width: 100%;
+    width: 90%;
     margin: 20px auto;
 }
 
 th,td {
     padding: 8px;
-    text-align: left;
+    text-align: center;   
 }
 
-/* Estilo para o cabeçalho das tabelas */
+
 th {
-    background-color: #e2e2e2;
+    background-color: #a7a7a7;
     font-weight: 900;
-    border-bottom: 10px solid #1df700;
 }
 
-/* Estilo para a Tabela 1 */
+
 .tabela-1 th, .tabela-1 td {
-    border: 5px solid #6f236f;
-    /* Adicionar bordas finas para células */
+    border: 2px solid #000000;
 }
+
+
 
 .tabela-1 img {
-    width: 50px;
-    /* Ajustar tamanho da imagem */
-    margin-right: 10px;
-    /* Adicionar margem à direita da imagem */
+    width: 70px;  
 }
 
 .tabela-1 button {
     background-color: #4CAF50;
-    /* Cor verde para o botão de compra */
     color: white;
     padding: 8px 12px;
     border: none;
@@ -42,32 +38,27 @@ th {
 }
 
 
-/* Estilo para a Tabela 2 */
 .tabela-2 th, .tabela-2 td {
     border: 1px solid #f80000;
 }
 
 
-.tabela-2 .status-entregue {
+.status-entregue {
     color: #fff;
-    /* Cor verde para status "Entregue" */
-}
-
-
-
-.tabela-2 .status-processamento {
-    color: orange;
-    /* Cor laranja para status "Em Processamento" */
-}
-
-.tabela-2 .status-aguardando {
-    color: red;
-    /* Cor vermelha para status "Aguardando Pagamento" */
-}
-
-.status-entregue{
     background-color: green;
+    
 }
+
+.status-processamento {
+    color: orange;
+    
+}
+
+.status-aguardando {
+    color: red;
+}
+
+
 
 
 
